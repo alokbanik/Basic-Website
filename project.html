@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project — Alok Banik</title>
+<meta name="description" content="Project case study by Alok Banik — UI/UX Designer in Dhaka, Bangladesh.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<div class="preloader" id="preloader">
+  <div class="preloader-text">ALOK<span>.</span></div>
+  <div class="preloader-count" id="preloaderCount">0</div>
+</div>
+
+<div class="ribbon" data-hover>
+  <span>AB.</span>
+  <span class="ribbon-status"><i></i>Available</span>
+</div>
+
+<header class="nav" id="nav">
+  <a href="index.html" class="nav-logo">AB<span class="dot">.</span></a>
+  <nav class="nav-links">
+    <a href="index.html#work" data-hover>Work</a>
+    <a href="about.html" data-hover>About</a>
+    <a href="index.html#contact" data-hover>Contact</a>
+  </nav>
+  <button class="nav-menu-btn" id="navBurger" data-hover>
+    <span>Menu</span>
+    <i></i>
+  </button>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html#work" data-hover>Work</a>
+  <a href="about.html" data-hover>About</a>
+  <a href="index.html#contact" data-hover>Contact</a>
+</div>
+
+<main id="top">
+
+  <section class="project-hero">
+    <a href="index.html#work" class="project-back reveal-up" data-hover>← All Work</a>
+
+    <p class="section-tag reveal-up" id="projectCategory">Category</p>
+    <h1 class="project-title reveal-up" id="projectTitle">Project Title</h1>
+
+    <div class="project-meta reveal-up">
+      <div class="project-meta-item">
+        <span>Role</span>
+        <strong id="projectRole">—</strong>
+      </div>
+      <div class="project-meta-item">
+        <span>Tools</span>
+        <strong id="projectTools">—</strong>
+      </div>
+      <div class="project-meta-item" id="projectDateItem">
+        <span>Date</span>
+        <strong id="projectDate">—</strong>
+      </div>
+      <div class="project-meta-item">
+        <span>Platform</span>
+        <strong id="projectPlatform">—</strong>
+      </div>
+    </div>
+
+    <div class="project-hero-img reveal-up">
+      <img id="projectImage" src="" alt="">
+    </div>
+  </section>
+
+  <section class="project-body">
+    <div class="project-body-grid">
+      <div class="project-body-block reveal-up">
+        <h3>Problem</h3>
+        <p id="projectProblem"></p>
+      </div>
+      <div class="project-body-block reveal-up">
+        <h3>Process</h3>
+        <p id="projectProcess"></p>
+      </div>
+      <div class="project-body-block reveal-up">
+        <h3>Outcome</h3>
+        <p id="projectOutcome"></p>
+      </div>
+    </div>
+    <a href="#" id="projectLink" target="_blank" rel="noopener" class="btn btn-primary project-external reveal-up" data-hover data-magnetic>
+      <span>View on Behance ↗</span>
+    </a>
+  </section>
+
+  <section class="work" id="work">
+    <div class="work-header">
+      <p class="section-tag reveal-up">More Projects</p>
+      <h2 class="work-heading reveal-up">Keep exploring — the rest of the collection.</h2>
+    </div>
+
+    <div class="work-list" id="workList"></div>
+
+    <div class="work-hover-preview" id="workPreview"><img src="" alt=""></div>
+  </section>
+
+  <section class="cta" id="contact">
+    <p class="cta-watermark">ALOK BANIK</p>
+    <p class="cta-eyebrow reveal-up">Let's build something</p>
+    <h2 class="cta-heading reveal-up">Meaningful<br>and Memorable</h2>
+    <p class="cta-reach reveal-up">Let's work together</p>
+    <a href="mailto:alokbanik5@gmail.com" class="cta-email reveal-up" data-hover>alokbanik5@gmail.com</a>
+    <div class="cta-socials reveal-up">
+      <a href="https://www.linkedin.com/in/alok-banik/" target="_blank" rel="noopener" data-hover aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M6.94 6.5a2 2 0 11-4-.002 2 2 0 014 .002zM7 8.98H3.5V21H7V8.98zM12.75 8.98h-3.35V21h3.35v-6.32c0-3.53 4.5-3.82 4.5 0V21H21v-7.6c0-6.02-6.5-5.8-8.25-2.84V8.98z" fill="currentColor"/></svg>
+      </a>
+      <a href="https://www.behance.net/alokbanik51f89" target="_blank" rel="noopener" data-hover aria-label="Behance">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M7.8 11.2c1 0 1.9-.7 1.9-1.9 0-1.2-.9-1.8-1.9-1.8H3.4v3.7h4.4zm.5 2H3.4V17h5.1c1.1 0 2.2-.7 2.2-2 0-1.3-1-1.8-2.4-1.8zM1 5.4h7.2c2.6 0 4.2 1.3 4.2 3.4 0 1.3-.7 2.2-1.7 2.7 1.5.5 2.4 1.6 2.4 3.3 0 2.6-2.1 4.2-4.9 4.2H1V5.4zm17.8 2.2c1.4 0 2.5.4 3.4 1.2v-1H23v9.1c0 3-1.9 4.5-5 4.5-1.9 0-3.6-.7-4.6-1.9l1.6-1.5c.6.7 1.6 1.2 2.8 1.2 1.6 0 2.6-.8 2.6-2.4v-.7c-.8.7-1.8 1.1-3 1.1-2.7 0-4.6-1.9-4.6-4.6 0-2.7 1.9-4.6 4.6-4.6h.1zm.2 7.2c1.4 0 2.4-1 2.4-2.5s-1-2.5-2.4-2.5-2.4 1-2.4 2.5 1 2.5 2.4 2.5zM13.6 3h6.3v1.6h-6.3V3z" fill="currentColor"/></svg>
+      </a>
+      <a href="https://dribbble.com/alok_banik" target="_blank" rel="noopener" data-hover aria-label="Dribbble">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm6.9 4.6a8.4 8.4 0 011.9 5.2c-.3-.1-3-.6-5.7-.3-.1-.3-.2-.5-.4-.8a24 24 0 00-.6-1.4c3-1.2 4.4-3 4.8-2.7zM12 3.6c1.9 0 3.7.7 5 1.9-.3.4-1.6 2-4.5 3.1a34 34 0 00-3.4-5.6c1-.3 1.9-.4 2.9-.4zm-4.5 1a35 35 0 013.4 5.6c-4.3 1.1-8.1 1.1-8.5 1.1a8.4 8.4 0 015.1-6.7zM3.6 12v-.3c.4 0 4.9 0 9.5-1.3.3.5.5 1 .7 1.4l-.3.1c-4.9 1.6-7.5 6-7.7 6.2A8.3 8.3 0 013.6 12zm3.5 6.7c.2-.3 2.3-4.2 6.7-5.7h.1c1.5 4.2 2.2 7.6 2.3 8.3a8.4 8.4 0 01-9.1-2.6zm10.7 1.7c-.1-.5-.7-3.7-2.1-7.8 2.5-.4 4.7.3 5 .4a8.4 8.4 0 01-2.9 7.4z" fill="currentColor"/></svg>
+      </a>
+      <a href="mailto:alokbanik5@gmail.com" data-hover aria-label="Email">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M3 5.5h18v13H3v-13z" stroke="currentColor" stroke-width="1.6"/><path d="M3.5 6l8.5 7 8.5-7" stroke="currentColor" stroke-width="1.6"/></svg>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <span>© <span id="year"></span> Alok Banik</span>
+  <span>Designed &amp; built with care in Dhaka, Bangladesh</span>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="assets/js/projects-data.js"></script>
+<script src="assets/js/project-detail.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
